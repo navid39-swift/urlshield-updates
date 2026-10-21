@@ -1,0 +1,45 @@
+{
+  "featureSchema": "host-v1",
+  "files": [
+    {
+      "name": "URLShieldHost.mlmodel",
+      "sha256": "6166a66ee4e9046541e523a62adaaa1a9a4a1a572d5e6491759dc642debe0c17"
+    },
+    {
+      "name": "tld_rates.json",
+      "sha256": "2edb2a62f6b839aee34130e11769ce799019d9079f9c41ffb9169c47626ad355"
+    },
+    {
+      "name": "allowlist.json",
+      "sha256": "4d274caa040da01afb4580a3903bf27b247e9cc35f42715e23395083e0649b32"
+    },
+    {
+      "name": "special_hosts.json",
+      "sha256": "a7a21f1f81acbbe8822ea5695072650b7d324a00e12a24661feb60f0c1e67526"
+    }
+  ],
+  "notes": "Retrained with fresh phishing data",
+  "selfTests": [
+    {
+      "host": "google.com",
+      "pPhishing": 0.165451
+    },
+    {
+      "host": "poste.it",
+      "pPhishing": 0.05603
+    },
+    {
+      "host": "paypa1.com",
+      "pPhishing": 0.207111
+    },
+    {
+      "host": "xk7q9z2p.top",
+      "pPhishing": 0.745956
+    },
+    {
+      "host": "secure-update-account4421.com",
+      "pPhishing": 0.978808
+    }
+  ],
+  "version": 2
+}
